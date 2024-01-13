@@ -1,14 +1,8 @@
-let quantity = 3;
-
-let pricePerDroid = 3000;
-
 function makeTransaction(quantity, pricePerDroid) {
-  let = totalPrice;
-  let totalPrice = quantity * pricePerDroid;
+  const totalPrice = quantity * pricePerDroid;
+  console.log(`You ordered ${quantity} droids worth ${totalPrice} credits!`);
 }
 
-const makeTransaction =
-  "You ordered" + quantity + " droids worth " + totalPrice + " credits!";
-
-console.log(makeTransaction);
-//  !
+console.log(makeTransaction(5, 3000));
+console.log(makeTransaction(3, 1000));
+console.log(makeTransaction(10, 500));
